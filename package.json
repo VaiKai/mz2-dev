@@ -1,0 +1,26 @@
+{
+  "name": "mountyzilla2",
+  "title": "Mountyzilla reloaded",
+  "id": "jid1-GaXuQrLABWd7kQ",
+  "description": "Ajout de fonctionnalités pour Mountyhall",
+  "author": "plein de gens",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "permissions": {
+    "cross-domain-content": ["https://utils.mh.raistlin.fr"]
+  },
+  "preferences": [{
+        "name": "serveursMH",
+        "title": "Serveurs MH",
+        "description": "Liste des serveurs et proxys",
+        "type": "string",
+        "value": "games.mountyhall.com,serv01.mountyhall.com,localhost"
+    },
+    {
+        "name": "serveurMZ", 
+        "title": "Serveur MZ",    
+        "description": "Serveur principal des scripts MZ",
+        "type": "string",
+        "value": "utils.mh.raistlin.fr"
+    }]
+}
