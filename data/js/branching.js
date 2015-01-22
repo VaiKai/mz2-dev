@@ -1,8 +1,5 @@
 self.port.on("loadExternalJS", function(url) {
-// fonction de test : modifie le cadre de connexion sur la page de login
-  function modifyFieldByTagName(tagName, param){
-          document.getElementsByTagName(tagName)[0].innerHTML += " " + param;
-  }
+
 
   // récupération de l'url complete du script chargé
   // cette url dépendra bien évidemment de l'url de la page en cours
