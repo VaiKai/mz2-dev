@@ -1,11 +1,12 @@
 {
   "name": "mountyzilla2",
   "title": "Mountyzilla reloaded",
-  "id": "jid1-GaXuQrLABWd7kQ",
+  "id": "{C32CCF5B-CEE1-4AE3-99D1-D54320B4A8DF}",
   "description": "Ajout de fonctionnalités pour Mountyhall",
   "author": "plein de gens",
   "license": "MPL 2.0",
-  "version": "0.1",
+  "version": "0.1.1",
+  "main": "./lib/main.js",
   "permissions": {
     "cross-domain-content": ["https://utils.mh.raistlin.fr"]
   },
@@ -22,5 +23,20 @@
         "description": "Serveur principal des scripts MZ",
         "type": "string",
         "value": "utils.mh.raistlin.fr"
-    }]
+    },
+	{
+        "name": "pageNewsMH", 
+        "title": "page de News MH",    
+        "description": "page de News MH",
+        "type": "string",
+        "value": "http://games.mountyhall.com/mountyhall/MH_Play/Play_news.php"
+    },
+    {
+        "name": "pageProfilMH", 
+        "title": "page de Profil MH",    
+        "description": "page de Profil MH",
+        "type": "string",
+        "value": "http://games.mountyhall.com/mountyhall/MH_Play/Play_profil2.php"
+    }
+	]
 }
